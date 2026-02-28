@@ -35,6 +35,7 @@ const transactionSchema = new mongoose.Schema({
   category: String,
   amount: Number,
   type: { type: String, enum: ['income', 'expense'], default: 'expense' },
+  description: String,
   date: { type: Date, default: Date.now }
 });
 
