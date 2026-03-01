@@ -1,6 +1,6 @@
-# 💰 Budget Buddy - A Cute Anime-Themed Budgeting App!
+# 💰 Budget Buddy - A Cute Budgeting App For All the GirlyPop!
 
-A beautiful, feature-rich budgeting application with an adorable anime aesthetic, built with React, Node.js, and MongoDB, fully containerized with Docker.
+A beautiful, feature rich budgeting application with an adorable anime aesthetic, built with React, Node.js, and MongoDB, fully containerized with Docker.
 
 ## ✨ Features
 
@@ -131,7 +131,7 @@ stop.bat
 ### Health Check
 - `GET /api/health` - Check API status
 
-## 🏗️ Project Structure
+<!-- ## 🏗️ Project Structure
 
 ```
 budget-app/
@@ -157,7 +157,7 @@ budget-app/
 ├── stop.sh / stop.bat          # Stop scripts
 ├── README.md
 ├── QUICKSTART.md
-└── DEVELOPMENT.md
+└── DEVELOPMENT.md -->
 ```
 
 ## 🎨 Customization
@@ -224,9 +224,9 @@ docker-compose up --build
 - [ ] Budget sharing with family members
 - [ ] Multi-currency support
 
-## 📝 License
+<!-- ## 📝 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License. -->
 
 ## 🤝 Contributing
 
@@ -236,7 +236,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 - Built with love for the budgeting community
 - Inspired by cute anime aesthetics
-- Thanks to all open-source contributors
+<!-- - Thanks to all open-source contributors -->
+- All ReadMe files are generated using AI
 
 ---
 
