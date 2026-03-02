@@ -101,6 +101,11 @@ app.delete('/api/transactions/:id', async (req, res) => {
   }
 });
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ message: 'Budget Buddy API is running', status: 'ok' });
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok' });
