@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+const API_URL = process.env.REACT_APP_API_URL || 'https://your-budgeting-needs-1.onrender.com';
 
 // Category emoji mapping
 const CATEGORY_EMOJIS = {
