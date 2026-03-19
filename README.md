@@ -83,6 +83,23 @@ Or use:
 stop.bat
 ```
 
+## 📱 iOS App (Expo)
+
+The repository now includes a React Native app in `mobile/` for iOS and Android.
+
+### Run on iOS Simulator
+```bash
+cd mobile
+cp .env.example .env
+npm run ios
+```
+
+### API URL setup
+- iOS Simulator can use `http://localhost:5001`
+- Physical iPhone should use your Mac's LAN IP, for example:
+  - `EXPO_PUBLIC_API_URL=http://192.168.1.22:5001`
+- Make sure backend is running (`docker-compose up --build`) before opening the mobile app
+
 ## 💡 How to Use
 
 ### Creating Your First Budget
