@@ -95,7 +95,7 @@ export default function SettingsScreen() {
       {/* Connection */}
       <View style={[styles.card, { backgroundColor: theme.surface }]}>
         <Text style={[styles.sectionTitle, { color: theme.accentDark }]}>Connection</Text>
-        <View style={styles.infoRow}>
+        <View style={[styles.infoRow, { borderBottomColor: theme.border }]}>
           <Text style={[styles.infoLabel, { color: theme.textSecondary }]}>API URL</Text>
           <Text style={[styles.infoValue, { color: theme.text }]} selectable>
             {API_BASE_URL}
@@ -109,15 +109,15 @@ export default function SettingsScreen() {
       {/* About */}
       <View style={[styles.card, { backgroundColor: theme.surface }]}>
         <Text style={[styles.sectionTitle, { color: theme.accentDark }]}>About</Text>
-        <View style={styles.infoRow}>
+        <View style={[styles.infoRow, { borderBottomColor: theme.border }]}>
           <Text style={[styles.infoLabel, { color: theme.textSecondary }]}>App</Text>
           <Text style={[styles.infoValue, { color: theme.text }]}>Budget Buddy Mobile</Text>
         </View>
-        <View style={styles.infoRow}>
+        <View style={[styles.infoRow, { borderBottomColor: theme.border }]}>
           <Text style={[styles.infoLabel, { color: theme.textSecondary }]}>Version</Text>
           <Text style={[styles.infoValue, { color: theme.text }]}>1.0.0</Text>
         </View>
-        <View style={styles.infoRow}>
+        <View style={[styles.infoRow, { borderBottomColor: theme.border }]}>
           <Text style={[styles.infoLabel, { color: theme.textSecondary }]}>Framework</Text>
           <Text style={[styles.infoValue, { color: theme.text }]}>Expo SDK 55 + React Native</Text>
         </View>
@@ -165,7 +165,6 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     paddingVertical: 8,
     borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: "rgba(0,0,0,0.06)",
   },
   infoLabel: { fontSize: 14 },
   infoValue: { fontSize: 14, fontWeight: "500" },

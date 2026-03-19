@@ -10,6 +10,7 @@ export function DataProvider({ children }) {
   const [error, setError] = useState("");
 
   const fetchAll = useCallback(async () => {
+    setLoading(true);
     setError("");
     try {
       const [b, t] = await Promise.all([
